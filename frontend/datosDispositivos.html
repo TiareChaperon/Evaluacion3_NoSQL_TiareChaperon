@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Datos Dispositivos</title>
+
+  <link rel="stylesheet" href="./css/brite.css">
+  <link rel="stylesheet" href="./css/estilos.css">
+
+  <!-- DataTables -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.min.css">
+
+  <!-- jQuery -->
+  <script src="./scripts/jQuery v4.0.0.js"></script>
+
+  <!-- DataTables -->
+  <script src="https://cdn.datatables.net/2.3.2/js/dataTables.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Tu script -->
+  <script src="./scripts/datosDispositivos.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="./datos.html">Usuarios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./formulario.html">Formulario Usuario</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./datosDispositivos.html">Dispositivos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./dispositivo.html">Formulario Dispositivo</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <br>
+
+  <div class="container">
+
+    <h2>Data Dispositivos Electrónicos</h2>
+
+    <table id="tablaDispositivos" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th>Usuario</th>
+          <th>Rut</th>
+          <th>Tipo</th>
+          <th>Marca</th>
+          <th>Modelo</th>
+          <th>Serie</th>
+          <th>Sistema Operativo</th>
+          <th>Estado</th>
+          <th>Valor</th>
+        </tr>
+      </thead>
+
+      <tbody>
+      </tbody>
+
+    </table>
+
+  </div>
+
+</body>
+
+</html>
